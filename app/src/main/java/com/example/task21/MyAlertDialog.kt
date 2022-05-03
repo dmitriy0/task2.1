@@ -12,7 +12,7 @@ import java.util.logging.Level.INFO
 class MyAlertDialog: DialogFragment(){
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        Log.i("Message","dialog canceled")
+        Log.i("Message","dialog created")
 
         val builder = AlertDialog.Builder(requireActivity())
         builder.setTitle("Something message")
